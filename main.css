@@ -7,9 +7,37 @@ html{
     color: #ffffff;
     min-width: 600px;
 }
-.first, .second {
+.first, .second, .third {
     margin: 20px;
     padding: 20px;
+}
+
+tr{
+    height: 40px;
+}
+.f-table, .s-table, .t-table {
+    border-bottom: 1px solid #6d6d6d;
+    padding: 10px;
+
+}
+
+.f-table {
+    width: 600px;
+   }
+
+.s-table {
+    width: 590px;
+}
+
+.t-table {
+    width: 590px;
+}
+
+th{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 10px;
+    text-align: left;
 }
 table{
     border: 1px solid #6d6d6d;
@@ -17,34 +45,29 @@ table{
     border-spacing: 0px;
     border-radius: 5px;
 }
-tr{
-    height: 40px;
-}
-th, td {
-    width: 600px;
-    border-bottom: 1px solid #6d6d6d;
-    padding: 10px;
-   }
-th{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px 10px;
-    text-align: left;
-}
-
 .l{
     border-bottom: 1px solid #2f2f2f;
 }
 
 .t {
-    width: 10px;
+    max-width: 10px;
     font-size: 20px;
     font-weight: 700;
     padding-top: 0px;
+    align-content: flex-end;
+    padding-left: -100px;
 }
 
 .checkbox{
     width: 5px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filebox{
+    width: 20px;
+    height: 20px;
     font-size: 20px;
     margin: 0px;
     padding: 0px;
